@@ -1,0 +1,10 @@
+<html>
+<body>
+<?php
+session_start();
+require_once("credential.php");
+unset($_SESSION['name']);
+header("refresh:0;url=academylogin.php");
+?>
+</body>
+</html>

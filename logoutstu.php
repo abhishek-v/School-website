@@ -1,0 +1,10 @@
+<html>
+<body>
+<?php
+session_start();
+require_once("credential.php");
+unset($_SESSION['stuname']);
+header("refresh:0;url=index.php");
+?>
+</body>
+</html>
